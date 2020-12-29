@@ -11,8 +11,7 @@ Theo dõi biến động giá sản phẩm TIKI sử dụng [Github Actions](htt
     make test
     ```
 2. Commit and push
-3. Đăng ký nhận thông báo của repo: Chọn `All Activity`
-    ![nhận thông báo](screenshot/watch_screenshot.png)
+3. Đăng ký nhận thông báo của repo: Settings -> Notifications -> Thêm email nhận thông báo khi có commit mới.
 
 Mỗi khi giá cả thay đổi, Github Action sẽ tạo ra 1 commit mới. Vì bạn đã chọn Watch the repo nên bạn sẽ nhận được thông báo.
 
