@@ -1,0 +1,80 @@
+{
+  "id": 4538863,
+  "is_deal": true,
+  "product_id": 4538863,
+  "price": 11990000,
+  "inventory_status": "available",
+  "deal_specs": {
+    "is_hot_deal": false,
+    "qty": 50,
+    "max_sale_qty": 4,
+    "qty_ordered": 21,
+    "special_to_date": 1609430401,
+    "price": 11990000,
+    "list_price": 17990000,
+    "discount_rate": 33,
+    "progress": 42,
+    "progress_text": "Đã bán 21",
+    "v5": 1
+  },
+  "return_and_exchange_policy": "Đổi trả trong<br><b>7 ngày</b><br>nếu sp lỗi",
+  "warranty_lifetime": "Thời gian bảo hành: Bảo hành 12 Tháng tại các TTBH Apple ủy quyền",
+  "qty": 50,
+  "qty_ordered": 21,
+  "special_to_date": "2020-12-31 23:00:01",
+  "max_sale_qty": 4,
+  "subscriber_and_save": null,
+  "installment_info": {
+    "price": 1998333,
+    "month": 6,
+    "redirect_url": "https://tiki.vn/installment?masterId=4538861&spid=4538863"
+  },
+  "is_free_shipping": false,
+  "is_support_installation_package": false,
+  "warranty_info": [
+    {
+      "name": "Thời gian bảo hành",
+      "value": "12 Tháng",
+      "url": null
+    },
+    {
+      "name": "Hình thức bảo hành",
+      "value": "Điện tử",
+      "url": null
+    },
+    {
+      "name": "Nơi bảo hành",
+      "value": "Bảo hành chính hãng",
+      "url": null
+    },
+    {
+      "name": "Hướng dẫn bảo hành",
+      "value": "Xem chi tiết",
+      "url": "https://hotro.tiki.vn/hc/vi/articles/201803444"
+    }
+  ],
+  "badges_new": [
+    {
+      "type": "minor_badge",
+      "icon_url": "https://salt.tikicdn.com/ts/upload/7b/17/f7/4860983e93ea3c264ae0d932c58ec4f7.png",
+      "icon_width": 48,
+      "icon_height": 24,
+      "href": "https://tiki.vn/chuong-trinh/mo-the-tikicard?src=pdp_badge",
+      "text": "Hoàn tiền 15% tối đa 600k/tháng",
+      "text_color": null,
+      "background_color": null
+    }
+  ],
+  "badges": [
+    {
+      "code": "tikinow",
+      "text": "tikinow",
+      "icon_href": ""
+    },
+    {
+      "code": "installment",
+      "price": 1998333,
+      "month": 6
+    }
+  ]
+}
