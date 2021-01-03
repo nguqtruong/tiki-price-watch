@@ -13,10 +13,11 @@ jobs:
     - name: Check out this repo
       uses: actions/checkout@v2
     - name: Fetch latest data
-      run: |-
+      run: |
+        chmod +x ./scrape.sh
         ./scrape.sh
     - name: git diff
-      run: |-
+      run: |
         git diff
     - name: Commit and push if it changed
       run: |-
