@@ -16,6 +16,7 @@ jobs:
       run: |
         chmod +x ./scrape.sh
         ./scrape.sh
+        cat ./output/4538233.txt
     - name: git diff
       run: |
         git diff
