@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # TIKI price
+echo hihi
 while IFS= read -r line; do
     # Get product id
     a=`echo $line | grep -o "\-p\(\d\+\).html" | grep -o "\d\+"`
