@@ -8,8 +8,8 @@ cat links.txt;
 while IFS= read -r line; do
     echo $line
     # Get product id
-    a=`echo $line | grep -o "\-p\(\d\+\).html" | grep -o "\d\+"`
-    b=`echo $line | grep -o "\.*spid\=\(\d\+\)" | grep -o "\d\+"`
+    a=`echo $line | grep -o "\([0-9]\+\)\.html" | grep -o "\([0-9]\+\)"`
+    b=`echo $line | grep -o "spid\=\([0-9]\+\)" | grep -o "\([0-9]\+\)"`
     echo $a;
     echo $b;
 
