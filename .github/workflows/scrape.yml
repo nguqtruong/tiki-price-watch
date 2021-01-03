@@ -15,6 +15,9 @@ jobs:
     - name: Fetch latest data
       run: |-
         ./scrape.sh
+    - name: git diff
+      run: |-
+        git diff
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
