@@ -23,6 +23,9 @@ Vậy nghĩa là sản phẩm vừa thay đổi giá từ `11490000` sang `11990
 
 ## Cách sử dụng
 1. Fork this project to your own repo.
+1. Enable Github Actions - Workflow
+   1. ![link sản phẩm](screenshot/enable_workflow_1.png)
+   1. ![link sản phẩm](screenshot/enable_workflow_2.png)
 1. Copy link sản phẩm và dán vào file [links.txt](https://github.com/nqtrg/tiki-price-watch/blob/master/links.txt). Mỗi sản phẩm một dòng.
     ![link sản phẩm](screenshot/link_screenshot.png)
 1. Kiểm tra lại script scrape có chạy được với danh sách links không:
